@@ -409,13 +409,20 @@ ul { list-style: none; }
 }
 
 .challenge-block {
-  margin-bottom: 28px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 16px;
 }
 .challenge-block h4 {
   font-size: 15px;
   font-weight: 700;
   color: var(--navy);
   margin-bottom: 8px;
+}
+.challenge-block > p {
+  margin-bottom: 4px;
 }
 .solution-label {
   font-size: 12px;
@@ -426,6 +433,63 @@ ul { list-style: none; }
   padding: 2px 8px;
   display: inline-block;
   margin-bottom: 8px;
+}
+.solution-heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.solution-list {
+  list-style: decimal;
+  padding-left: 20px;
+  margin: 0;
+}
+.solution-list li {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 6px;
+}
+
+/* 迭代時間軸（關鍵成果區） */
+.changelog-intro {
+  margin-top: 28px;
+}
+.changelog {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+}
+.changelog li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 14px;
+}
+.changelog li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--orange);
+}
+.changelog-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.6;
+}
+.changelog-desc {
+  display: block;
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-top: 2px;
 }
 
 .role-timeline {

@@ -21,7 +21,7 @@ const data = [
 const annotations = [
   { index: 3,  label: '資料建置',   align: 'right'  },
   { index: 12, label: '受眾推播系統', align: 'center' },
-  { index: 24, label: '穩定幣買押',  align: 'left'   }
+  { index: 24, label: '穩定幣質押',  align: 'left'   }
 ];
 
 // ── 自訂 Plugin：繪製標注氣泡 ────────────────────────────────
