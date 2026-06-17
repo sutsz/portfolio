@@ -4,6 +4,11 @@ const translations = {
     'nav.lang': 'EN',
     'nav.logo': 'Sophie Su',
 
+    /* --- RESUME --- */
+    'resume.title': '工作經歷',
+    'resume.download': '下載 PDF 履歷',
+    'resume.intro': '擁有 8 年以上消費型軟體經驗，橫跨加密貨幣、內容平台與健康科技。從 UX 設計師一路成長為產品主管，兼具以用戶為本的同理心與數據驅動的決策思維，打造兼具體驗與商業價值的產品。',
+
     /* --- HERO --- */
     'hero.title': 'Hi, I am Sophie.',
     'hero.desc': '嗨！我是產品經理 Sophie。擁有超過 8 年的軟體產品規劃與設計經驗，對於打造優質且令人愉悅的使用體驗充滿熱情。兼具以用戶為本的同理心，和數據驅動的理性思維，並多次為產品訂定目標與計劃取得商業成功。',
@@ -43,7 +48,7 @@ const translations = {
     'pd.desc': 'PopDaily 是以 20-40 歲女性為受眾的內容平台，我負責提升網頁版搜尋轉換率，以數據驅動的方式迭代優化產品。其中解決方案包了排解正向流程的阻礙、與數據科學家協作調整演算法、調整 UI 畫面等等。',
 
     /* --- LINKS SECTION --- */
-    'section.links': '相關連結',
+    'section.links': '參考資訊',
 
     'link1.title': '如何撰寫規格書',
     'link1.date': '4 Jan 2025',
@@ -51,9 +56,9 @@ const translations = {
     'link1.desc': '發布於方格子的文章，前言：寫規格關鍵的目的，並不是給團隊未來來查詢用，也不是給老闆或銷售部門了解功能用。功能規格主要是用於，當產品需要更新時，讓產品開發團隊了解「我需要做...」',
     'link1.url': 'https://vocus.cc',
 
-    'link2.title': '個人簡歷',
+    'link2.title': '工作經歷',
     'link2.date': '11 Aug 2025',
-    'link2.source': 'cake.me',
+    'link2.source': '履歷',
     'link2.desc': '曾任職於：inline 餐廳訂位位置管理系統、Health2Sync 慢性病管理系統、FREONE 餐飲排班系統等 2B SaaS 產品，以及 2C 的 CoolWallet 資產管理工具、PopDaily 內容平台。',
     'link2.url': 'https://cake.me',
 
@@ -165,6 +170,11 @@ const translations = {
     'nav.lang': '中文',
     'nav.logo': 'Sophie Su',
 
+    /* --- RESUME --- */
+    'resume.title': 'Work Experience',
+    'resume.download': 'Download PDF Resume',
+    'resume.intro': 'Design-trained product leader with 8+ years building consumer software across crypto, content platform, and health tech. I combine user-centric empathy with data-driven thinking — progressing from UX designer to product lead, and shipping experiences that are both delightful and measurably impactful.',
+
     /* --- HERO --- */
     'hero.title': 'Hi, I am Sophie.',
     'hero.desc': "Hi! I'm Sophie, a Product Manager with over 8 years of experience in software product planning and design. I'm passionate about crafting high-quality, delightful user experiences. I combine user-centric empathy with data-driven thinking, and have repeatedly set product goals that drove measurable business success.",
@@ -204,7 +214,7 @@ const translations = {
     'pd.desc': "PopDaily is a content platform for women aged 20–40. I led the effort to improve web search conversion rates through data-driven iteration: removing friction in the search flow, collaborating with data scientists to tune the ranking algorithm, and refining the UI.",
 
     /* --- LINKS SECTION --- */
-    'section.links': 'Related Links',
+    'section.links': 'References',
 
     'link1.title': 'How to Write a Product Spec',
     'link1.date': '4 Jan 2025',
@@ -212,9 +222,9 @@ const translations = {
     'link1.desc': "An article published on Vocus. The key purpose of writing a spec isn't for the team to look up later, nor to brief sales. It's primarily for the dev team to understand what needs to be built when the product evolves...",
     'link1.url': 'https://vocus.cc',
 
-    'link2.title': 'Resume',
+    'link2.title': 'Work Experience',
     'link2.date': '11 Aug 2025',
-    'link2.source': 'cake.me',
+    'link2.source': 'Resume',
     'link2.desc': 'Former roles at: inline restaurant reservation system, Health2Sync chronic disease management platform, FREONE restaurant scheduling system (2B SaaS), CoolWallet crypto asset tool, and PopDaily content platform (2C).',
     'link2.url': 'https://cake.me',
 
