@@ -25,6 +25,7 @@ const translations = {
 
     /* --- PROJECTS SECTION --- */
     'section.projects': '經手專案',
+    'project.cta': '查看專案',
 
     'cw.title': 'CoolWallet - 交易功能使用率增長',
     'cw.year': '2022-2024',
@@ -191,6 +192,7 @@ const translations = {
 
     /* --- PROJECTS SECTION --- */
     'section.projects': 'Featured Projects',
+    'project.cta': 'View Project',
 
     'cw.title': 'CoolWallet – Growing Trading Feature Usage',
     'cw.year': '2022-2024',

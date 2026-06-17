@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
     options: {
       responsive: true,
       maintainAspectRatio: true,
-      aspectRatio: 2.4,
+      aspectRatio: 1.9,
       plugins: {
         legend: { display: false },
         tooltip: {
