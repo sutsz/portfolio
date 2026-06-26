@@ -55,8 +55,8 @@
         <h3 data-i18n="label.work">具體工作內容</h3>
 
         <div class="challenge-block" style="margin-top:16px;">
-          <h4 data-i18n="pd.work.1.title">1. 查覺搜尋 API，洞察搜尋結果紀錄理解</h4>
-          <p data-i18n="pd.work.1.desc">搜尋平台的結果指數報告，高標搜尋面由 API 用戶識在關鍵字，壁到了 10 次搜尋優先各角，空率由 64.72% 提升至 69.38%</p>
+          <h4 data-i18n="pd.work.1.title">1. 分析搜尋 API 與搜尋紀錄</h4>
+          <p data-i18n="pd.work.1.desc">透過搜尋平台的成效報告與 API 數據，盤點熱門關鍵字與使用者的搜尋行為，找出搜尋結果頁的主要流失點。優先針對前 10 大熱門關鍵字進行優化，將搜尋成功率從 64.72% 提升至 69.38%。</p>
           <div class="image-row" style="margin-top:12px;">
             <img src="images/popdaily-detail-1.png" alt="PopDaily Before Funnel">
             <img src="images/popdaily-detail-2.png" alt="PopDaily After Funnel">
@@ -64,24 +64,24 @@
         </div>
 
         <div class="challenge-block">
-          <h4 data-i18n="pd.work.2.title">2. 調整 UI</h4>
-          <p data-i18n="pd.work.2.desc">與設計師協作，用 Mobile Web UI 提大到 6 以成成排序、合頁文字呈現</p>
+          <h4 data-i18n="pd.work.2.title">2. 重新設計搜尋結果頁 UI</h4>
+          <p data-i18n="pd.work.2.desc">與設計師協作，重新設計行動版網頁（Mobile Web）的搜尋結果頁，優化結果的排序方式與卡片、文字呈現，降低使用者瀏覽與點擊的摩擦。</p>
           <div class="image-row" style="margin-top:12px;">
-            <img src="images/popdaily-detail-3.png" alt="PopDaily UI Before">
-            <img src="images/popdaily-detail-4.png" alt="PopDaily UI After">
+            <img src="images/popdaily-detail-3.png" alt="PopDaily UI">
           </div>
         </div>
 
         <div class="challenge-block">
-          <h4 data-i18n="pd.work.3.title">3. 使用者可以量化、連推搜尋結果</h4>
-          <p data-i18n="pd.work.3.desc">上提問度：Web 71/72，確立以品，讓搜尋先先者先先的先先先先先先先品</p>
+          <h4 data-i18n="pd.work.3.title">3. 提升搜尋結果的相關性</h4>
+          <p data-i18n="pd.work.3.desc">優化搜尋結果的排序與呈現邏輯，讓使用者更快找到符合需求的內容，並透過相關內容推薦延伸瀏覽，減少搜尋無結果或找不到目標的情況。</p>
         </div>
 
         <div class="challenge-block">
-          <h4 data-i18n="pd.work.4.title">4. 配合數據部門，調整演算法</h4>
-          <p data-i18n="pd.work.4.desc">使用 3 種演算法 (v1 / v2 / v3)，分別以「後文章」、「30 天的文章轉支排序（Gaussian/Exponential Decay）」，決策後上線 v3（Exponential Decay）</p>
-          <div class="image-row" style="margin-top:12px;">
-            <img src="images/popdaily-detail-5.png" alt="PopDaily Algorithm Comparison" class="detail-image" style="height:auto;">
+          <h4 data-i18n="pd.work.4.title">4. 與數據部門協作，調整排序演算法</h4>
+          <p data-i18n="pd.work.4.desc">與數據科學家合作測試 3 種排序演算法（v1／v2／v3），分別以「最新文章」、「30 天文章熱度（Gaussian Decay）」、「30 天文章熱度（Exponential Decay）」為基準，評估後決策上線 v3（Exponential Decay）。</p>
+          <p class="chart-caption" data-i18n="pd.work.4.caption">搜尋結果排序優化前後：APP 與 Mobile Web 各週轉換率</p>
+          <div style="margin-top:8px;position:relative;">
+            <canvas id="pdChart"></canvas>
           </div>
         </div>
       </div>
@@ -96,13 +96,13 @@
         </div>
 
         <div class="highlight-box">
-          <p data-i18n="pd.result.1">觸擊數字，由搜尋 64.7% 提升至 71.5%</p>
+          <p data-i18n="pd.result.1">搜尋結果點擊率（CTR）由 64.7% 提升至 71.5%</p>
         </div>
         <div class="highlight-box">
-          <p data-i18n="pd.result.2">使用者觸擊，操作提進少，訪尋率直觀</p>
+          <p data-i18n="pd.result.2">使用者操作步驟減少，能更快找到目標內容，搜尋體驗更直覺</p>
         </div>
         <div class="highlight-box">
-          <p data-i18n="pd.result.3">流量結果，搜尋結果的優化性提升了 SEO 流量，約占了 SEO 總流量的 20%</p>
+          <p data-i18n="pd.result.3">搜尋結果頁的優化也帶動 SEO 流量成長，約佔整體 SEO 流量的 20%</p>
         </div>
       </div>
 
@@ -116,10 +116,10 @@
         </div>
 
         <div class="challenge-block">
-          <h4 data-i18n="pd.challenge.1.title">挑戰一、前的演算法不恰當</h4>
-          <p data-i18n="pd.challenge.1.desc">數據部門在建立調整演算法時，很多現有的模型在面對長尾關鍵字時表現不佳。如果要讓搜尋優先達到目標，需要透過嚴謹的 A/B testing 方式，小部分流量上線後才能放大到全量用戶。</p>
-          <div class="solution-label" data-i18n="label.solution">解決方案</div>
-          <p data-i18n="pd.challenge.1.solution">與數據科學家密切合作，設計嚴謹的實驗框架，以 Exponential Decay 排序演算法取代舊有模型，並分批上線驗證效果。</p>
+          <h4 data-i18n="pd.challenge.1.title">既有排序演算法不適用</h4>
+          <p data-i18n="pd.challenge.1.desc">既有的排序模型在面對長尾關鍵字時表現不佳。若要讓搜尋成效達標，必須透過嚴謹的 A/B testing，先以小流量驗證，確認效果後再逐步放大到全量用戶。</p>
+          <div class="solution-heading" data-i18n="label.howsolve">如何解決：</div>
+          <p data-i18n="pd.challenge.1.solution">與數據科學家密切合作，設計嚴謹的實驗框架，以 Exponential Decay 排序演算法取代舊有模型，並分批上線、逐步驗證成效。</p>
         </div>
       </div>
 
@@ -141,5 +141,7 @@
 
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="js/pd-chart.js"></script>
 </body>
 </html>
